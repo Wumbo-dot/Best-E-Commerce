@@ -1,0 +1,27 @@
+{
+  "name": "best-e-commerce",
+  "version": "1.0.0",
+  "description": "AS A manager at an internet retail company I WANT a back end for my e-commerce website that uses the latest technologies SO THAT my company can compete with other e-commerce companies.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wumbo-dot/Best-E-Commerce.git"
+  },
+  "author": "JT Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wumbo-dot/Best-E-Commerce/issues"
+  },
+  "homepage": "https://github.com/Wumbo-dot/Best-E-Commerce#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  }
+}
